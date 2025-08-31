@@ -1,0 +1,1 @@
+git remote add origin https://github.com/KamranHassanOffi/SC_ASSIGNMENT_2.git
