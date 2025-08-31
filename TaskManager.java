@@ -37,7 +37,14 @@ public class TaskManager {
                     break;
 
                 case "delete":
-                    System.out.print("Enter task number to delete: ");
+                   public static void deleteTask(int index) {
+          if (index > 0 && index <= tasks.size()) {
+          String removed = tasks.remove(index - 1);
+        System.out.println("Task deleted: " + removed);
+       } else {
+        System.out.println("Invalid task number.");
+    }
+}
                     int index = scanner.nextInt();
                     scanner.nextLine();
                     deleteTask(index);
