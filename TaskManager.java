@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//hey
 public class TaskManager {
     private static ArrayList<String> tasks = new ArrayList<>();
 
@@ -10,7 +10,7 @@ public class TaskManager {
         System.out.println("Task added: " + task);
     }
 
-    // ❌ Teammates will do these
+    //  Teammates will do these
     public static void showTasks() {
     if (tasks.isEmpty()) {
         System.out.println("No tasks available.");
